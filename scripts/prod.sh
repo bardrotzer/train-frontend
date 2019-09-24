@@ -1,4 +1,4 @@
 #!/bin/sh
 # remove old stuff first
-rm -r ./dist/*
+rm -rf ./dist/*
 webpack --config webpack/main.config.js

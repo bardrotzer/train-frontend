@@ -1,0 +1,24 @@
+{
+  "name": "train-frontend",
+  "version": "1.0.0",
+  "description": "Frontend that consumes train scedule information",
+  "main": "src/main.js",
+  "repository": "git@github.com:bardrotzer/train-frontend.git",
+  "author": "Bård Røtzer <bard@kartoteket.as>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "sh ./build/prod.sh"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

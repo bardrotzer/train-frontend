@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "sh ./build/prod.sh"
+    "build": "sh ./scripts/prod.sh"
   },
   "dependencies": {
     "vue": "^2.6.10",

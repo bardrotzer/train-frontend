@@ -9,12 +9,10 @@
 </template>
 
 <script>
+/* prettier-ignore */
 import '@/assets/css/tailwind.css';
 
-export default {
-  
-}
+export default {};
 </script>
 
-<style>
-</style>
+<style></style>

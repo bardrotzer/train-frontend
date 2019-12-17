@@ -5,17 +5,18 @@
     </div>
 
     <div>
-      <SearchStops/>
+      <SearchStops />
     </div>
   </div>
 </template>
 
 <script>
-import SearchStops from '@/views/stops/Search.vue'
+import SearchStops from '@/views/stops/Search.vue';
+
 export default {
   name: 'stops',
-  components:{
+  components: {
     SearchStops,
-  }
-}
+  },
+};
 </script>
